@@ -762,7 +762,7 @@ jobs:
 
   build_snap_arm64:
     name: Build Snap
-    runs-on: ubuntu-arm
+    runs-on: ubuntu-arm64
     steps:
       - uses: actions/checkout@v1.2.0
       - uses: snapcore/action-build@v1
